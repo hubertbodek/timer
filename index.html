@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+			integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
+			crossorigin="anonymous"
+		/>
+		<link rel="stylesheet" href="style.css" />
+		<title>Document</title>
+	</head>
+	<body>
+		<div class="container">
+			<svg class="dial">
+				<circle
+					r="194"
+					cx="-100"
+					cy="200"
+					fill="transparent"
+					stroke-width="10px"
+					class="svg__circle"
+					transform="rotate(-90 50 50)"
+				></circle>
+			</svg>
+			<div class="buttons">
+				<input type="text" class="timer__input" />
+				<button class="timer__play"><i class="fas fa-play"></i></button>
+				<button class="timer__pause"><i class="fas fa-pause"></i></button>
+			</div>
+		</div>
+		<script src="app.js"></script>
+	</body>
+</html>
